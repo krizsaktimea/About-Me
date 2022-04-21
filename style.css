@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-card {
+    width: 800px;
+    max-width: calc(100vw - 10px);
+}
+
+body {
+    height: 100vh;
+    background: url(background/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    margin: 35px 20px 35px 35px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.content {
+    background-color: rgba(68, 78, 78, 0.5);
+    border-radius: 15px;
+    padding-bottom: 0px;
+    min-height: 410px;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img {
+    height: 350px;
+    float: left;
+    margin: 25px 25px;
+    border-radius: 15px;
+}
+
+img:hover {
+    transform: scale(0.9);
+    transition: width 2s, height 2s, transform 2s;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+    font-weight:500;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.about {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 55px;
+    float: right;
+    padding-right: 200px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #c9cfcf;
+}
+
+li {
+    display: inline;
+    padding-right: 3px;
+  }
