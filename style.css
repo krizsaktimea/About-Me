@@ -6,7 +6,8 @@
 
 .profile-card {
     width: 800px;
-    max-width: calc(100vw - 10px);
+    max-width: calc(100% - 10px);
+    max-height: 100%;
 }
 
 body {
@@ -28,10 +29,9 @@ h1 {
 }
 
 .content {
-    background-color: rgba(68, 78, 78, 0.5);
+    background-color: rgba(43, 61, 75, 0.5);
     border-radius: 15px;
-    padding-bottom: 0px;
-    min-height: 410px;
+    min-height: 400px;
 }
 
 .content::after {
@@ -43,7 +43,7 @@ h1 {
 img {
     height: 350px;
     float: left;
-    margin: 25px 25px;
+    margin: 25px;
     border-radius: 15px;
 }
 
@@ -53,7 +53,7 @@ img:hover {
 }
 
 h2 {
-    padding: 20px;
+    padding: 25px;
     font-size: 40px;
 }
 
@@ -61,8 +61,8 @@ p {
     text-align: justify;
     font-size: 22px;
     font-weight:500;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .about {
@@ -72,8 +72,8 @@ p {
 ul {
     list-style-type: none;
     padding-top: 55px;
-    float: right;
-    padding-right: 200px;
+    padding-bottom: 10px;
+    text-align:center;
 }
 
 a {
